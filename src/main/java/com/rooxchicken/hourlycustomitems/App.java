@@ -50,7 +50,7 @@ public class App extends JavaPlugin implements Listener
                 }
             }
         }, 0, 20);
-        getLogger().info("Being a simple test plugin since 1987");
+        getLogger().info("Adding custom items to The Hourly SMP since 1987 (made by roo)");
     }
 
     public void handleItemLogic(ItemStack item)
@@ -97,7 +97,7 @@ public class App extends JavaPlugin implements Listener
     @Override
     public void onDisable()
     {
-        getLogger().info("bye bye test plugin");
+        //getLogger().info("");
     }
 
     @EventHandler
